@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        portfolio
+    </title>
+    <style>
+        header {
+            background: #0f172a;
+            position: static;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .navbar {
+            max-width: 1200px;
+            margin: auto;
+            padding: 18px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .logo {
+            color: white;
+            font-size: 25px;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #38bdf8;
+        }
+        /*section*/
+        
+        .hero {
+            min-height: 90vh;
+            max-width: 1200px;
+            margin: auto;
+            padding: 80px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px;
+        }
+        
+        .hero-content {
+            max-width: 650px;
+        }
+        
+        .welcome {
+            color: #0284c7;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+        
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 15px;
+            color: #0f172a;
+        }
+        
+        .hero span {
+            color: #0284c7
+        }
+        
+        .hero h2 {
+            font-size: 24px;
+            color: #475569;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 17px;
+            color: #64748b;
+            margin-bottom: 30px;
+        }
+        /*Buttons*/
+        
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #0284c7;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+        
+        .btn:hover {
+            background: #0369a1;
+            transform: translateY(-2px);
+        }
+        
+        .secondary-btn {
+            background: transparent;
+            color: #0284c7;
+            border: 2px solid #0284c7;
+        }
+        
+        .secondary-btn:hover {
+            color: white;
+        }
+        /*profile*/
+        
+        .profile-card {
+            width: 300px;
+            text-align: center;
+            padding: 40px 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .profile-circle {
+            width: 180px;
+            height: 180px;
+            margin: auto auto 20px;
+            border-radius: 50%;
+            background: #0284c7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .profile-circle span {
+            color: white;
+            font-size: 55px;
+            font-weight: bold;
+        }
+        
+        .profile-card {
+            font-size: 24px;
+        }
+        
+        .profile-card p {
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">
+                PRANALI DNYANESHWAR JAGADALE
+            </h2>
+            <ul class="nav-links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SKILL</a></li>
+                <li><a href="#">PROJECT</a></li>
+                <li><a href="#">EDUCATION</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-------home section-->
+    <main>
+        <section Id="home" class="hero">
+            <div class="hero-content">
+                <p class="welcome"> WELCOME TO MY PORTFOLIO</p>
+                <h1>HELLO I am
+                    <span> Pranali Dnyaneshwar Jagadale</span>
+                </h1>
+                <h2> STUDENT | BEGINNER| AI&DS</h2>
+                <P> I am a beginner in AI and Data Science, learning something new every day. Every mistake teaches me, and every challenge makes me stronger. I may be at the beginning, but my dreams are bigger than my doubts. One day, I’ll look back and
+                    be proud that I started today. </P>
+                <div class="hero-buttons">
+                    <a href="#project" class="btn secondary-btn "> view my project </a>
+                    <a href="#contact " class="btn secondary-btn "> contact me </a>
+                </div>
+
+            </div>
+
+            <div class="profile-card ">
+                <div class="profile-circle ">
+                    <span> PDJ </span>
+                </div>
+                <h3> PRANALI DNYANESHWAR JAGADALE</h3>
+                <P> AI&DS STUDENT</P>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
